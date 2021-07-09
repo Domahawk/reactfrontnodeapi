@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  background-color: #6a0098;
+  min-height: 100vh;
+}
+
+.App-header {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.componentContainer {
+  background-color: white;
+}
+.footer {
+  display: flex;
+  flex-flow: column;
+  flex:0 1 40px;
+}

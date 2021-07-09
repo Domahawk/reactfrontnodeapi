@@ -1,0 +1,13 @@
+.bigDaddyContainer {
+    display: grid;
+}
+
+.parenth1Container {
+    display: flex;
+    justify-content: center;
+}
+
+.childElement {
+    text-align: left;
+    width: 33%;
+}

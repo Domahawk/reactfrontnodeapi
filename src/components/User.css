@@ -1,0 +1,23 @@
+.parentUserContainer{
+    display: grid;
+}
+
+.content {
+    display: flex;
+    text-align: left;
+    width:100%;
+    border-top:solid black;
+}
+
+.user{
+    width: 33%;
+    padding: 50px;
+    margin: 0px;
+}
+
+.deleteButton {
+    height: 30px;
+    width: 100px;
+    align-self: center;
+    background-color: red;
+}
