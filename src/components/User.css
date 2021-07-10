@@ -4,20 +4,23 @@
 
 .content {
     display: flex;
-    text-align: left;
-    width:100%;
+    text-align: center;
     border-top:solid black;
+    width: 100%;
 }
 
 .user{
-    width: 33%;
-    padding: 50px;
-    margin: 0px;
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1vw;
 }
 
 .deleteButton {
-    height: 30px;
-    width: 100px;
+    height: 3vw;
+    width: 7vw;
     align-self: center;
     background-color: red;
+    text-align: center;
+    font-size: 1vw;
 }

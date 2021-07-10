@@ -1,13 +1,17 @@
 .bigDaddyContainer {
     display: grid;
+    width: 100%;
 }
 
 .parenth1Container {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    width: auto;
 }
 
 .childElement {
-    text-align: left;
-    width: 33%;
+    text-align: center;
+    font-size: 2vw;
+    width: 30%;
 }
+
