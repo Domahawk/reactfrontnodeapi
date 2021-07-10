@@ -24,3 +24,13 @@
     text-align: center;
     font-size: 1vw;
 }
+
+@media screen and (max-width: 800px) {
+    .deleteButton {
+        width: 10vw;
+        font-size: 2vw;
+    }
+    .user{
+        font-size: 2vw;
+    }
+  }
