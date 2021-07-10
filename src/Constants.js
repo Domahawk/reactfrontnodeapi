@@ -6,4 +6,4 @@ export const DELETE_USER =  'DELETE_USER';
 
 export const SAVE_POST_DATA = 'SAVE_POST_DATA';
 
-export const API_LINK = 'http://localhost:5000/';
+export const API_LINK = 'https://nodeapireactredux.herokuapp.com/';

@@ -23,11 +23,11 @@ export const removeUser = (id) => {
 
 export const postUser = (data) => {
     return async (dispatch) => {
-        console.log(data)
         await axios.post(`${API_LINK}post`, data)
         dispatch({
             type: POST_USER
         })
+        dispatch(fetchUsers())
     }
 }
 

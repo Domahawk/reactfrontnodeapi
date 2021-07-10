@@ -34,6 +34,11 @@ function Form () {
     const handlePostCall = () => {
         if (ValidateEmail(postData.email)) {
             dispatch(postUser(postData))
+            const htmlElementCollection = document.getElementsByClassName('inputFieldLabel')
+            for(let i=0;i<htmlElementCollection.length;i++){
+                htmlElementCollection[i].value = ''
+            }
+            
         }else {
             alert('Email you have entered is not valid')
         }
@@ -41,13 +46,12 @@ function Form () {
 
     return(
         <div>
-            <form name='theForm' className='formParent'>
+            <div name='theForm' className='formParent'>
                 <input onChange= {handleSaveOnChangeFirstName} className='inputFieldLabel' type='text' placeholder='Enter First Name'></input>
                 <input onChange= {handleSaveOnChangeLastName} className='inputFieldLabel' type='text' placeholder='Enter Last Name'></input>    
                 <input onChange= {handleSaveOnChangeEmail} required className='inputFieldLabel' type='email' placeholder='Enter Email'></input>
                 <button className='submitButton' onClick={handlePostCall}>Submit</button>  
-            </form>
-
+            </div>
         </div>
     )  
 }
